@@ -1,9 +1,10 @@
 import React from 'react'
 
-const EditExpensePage = () => {
+const EditExpensePage = (props) => {
+    console.log(props)
     return(
         <div>
-            This is from my Edit expense component
+            Editing the expense with ID of {props.match.params.id}
         </div>
     );
 }
