@@ -12,6 +12,7 @@
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "css-loader": "^3.5.1",
     "live-server": "^1.2.1",
     "node-sass": "^4.13.1",
