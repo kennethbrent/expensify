@@ -3,11 +3,11 @@ import {connect} from 'react-redux';
 import {NavLink} from 'react-router-dom';
 
 
-const ExpenseListItem = (props) => (
+export const ExpenseListItem = ({id,description,amount,createdAt}) => (
     <div>
-        <NavLink to={`edit/${props.id}`}>{props.description}</NavLink>
-        <p>{props.amount}</p>
-        <p>{props.createdAt}</p>
+        <NavLink to={`edit/${id}`}>{description}</NavLink>
+        <p>{amount}</p>
+        <p>{createdAt}</p>
   
     </div>
 )
